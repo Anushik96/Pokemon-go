@@ -34,7 +34,6 @@ export default defineComponent({
   },
 
   mounted() {
-    console.log(this.$route.params.name, ' this.$route.name')
     this.getSinglePokemon()
   },
 
